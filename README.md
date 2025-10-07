@@ -1,6 +1,14 @@
-# React + Vite
+# E-Commerce-Repo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+E-Commerce project built with React and Vite.
+
+## Tech Stack
+
+This project uses:
+- React + Vite for fast development with HMR
+- ESLint for code quality
+
+## Getting Started
 
 Currently, two official plugins are available:
 
