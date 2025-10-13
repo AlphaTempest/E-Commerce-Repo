@@ -5,7 +5,8 @@ const ProductCard = ({
   image, 
   title, 
   department, 
-  discount,
+  originalPrice,
+  salePrice,
   colors = []
 }) => {
   return (
@@ -28,10 +29,13 @@ const ProductCard = ({
           {department}
         </p>
 
-        {/* Discount */}
+        {/* Prices */}
         <div className="flex items-center gap-2">
+          <span className="text-slate-400 font-bold text-base line-through">
+            ${originalPrice.toFixed(2)}
+          </span>
           <span className="text-green-600 font-bold text-base">
-            Up to %{discount} Discount
+            ${salePrice.toFixed(2)}
           </span>
         </div>
 

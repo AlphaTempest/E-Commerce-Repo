@@ -13,7 +13,8 @@ const HomePage = () => {
       image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400',
       title: 'Watch',
       department: 'Accessories',
-      discount: 45,
+      originalPrice: 16.48,
+      salePrice: 6.48,
       colors: ['#23A6F0', '#23856D', '#E77C40', '#252B42']
     },
     {
@@ -21,7 +22,8 @@ const HomePage = () => {
       image: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400',
       title: 'Sunglasses',
       department: 'Accessories',
-      discount: 60,
+      originalPrice: 24.99,
+      salePrice: 9.99,
       colors: ['#23A6F0', '#23856D', '#E77C40', '#252B42']
     },
     {
@@ -29,7 +31,8 @@ const HomePage = () => {
       image: 'https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=400',
       title: 'Watch',
       department: 'Accessories',
-      discount: 38,
+      originalPrice: 18.50,
+      salePrice: 11.48,
       colors: ['#23A6F0', '#23856D', '#E77C40', '#252B42']
     },
     {
@@ -37,7 +40,8 @@ const HomePage = () => {
       image: 'https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=800&q=80',
       title: 'Perfume',
       department: 'Accessories',
-      discount: 55,
+      originalPrice: 22.00,
+      salePrice: 9.90,
       colors: ['#23A6F0', '#23856D', '#E77C40', '#252B42']
     },
     {
@@ -45,7 +49,8 @@ const HomePage = () => {
       image: 'https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=400',
       title: 'Shoes',
       department: 'Footwear',
-      discount: 70,
+      originalPrice: 29.99,
+      salePrice: 8.99,
       colors: ['#23A6F0', '#23856D', '#E77C40', '#252B42']
     },
     {
@@ -53,7 +58,8 @@ const HomePage = () => {
       image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400',
       title: 'Headphones',
       department: 'Electronics',
-      discount: 42,
+      originalPrice: 19.48,
+      salePrice: 11.28,
       colors: ['#23A6F0', '#23856D', '#E77C40', '#252B42']
     },
     {
@@ -61,7 +67,8 @@ const HomePage = () => {
       image: 'https://images.unsplash.com/photo-1511556820780-d912e42b4980?w=400',
       title: 'Smart Watch',
       department: 'Electronics',
-      discount: 35,
+      originalPrice: 15.99,
+      salePrice: 10.39,
       colors: ['#23A6F0', '#23856D', '#E77C40', '#252B42']
     },
     {
@@ -69,7 +76,8 @@ const HomePage = () => {
       image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400',
       title: 'Shoes',
       department: 'Footwear',
-      discount: 52,
+      originalPrice: 21.48,
+      salePrice: 10.32,
       colors: ['#23A6F0', '#23856D', '#E77C40', '#252B42']
     }
   ];
